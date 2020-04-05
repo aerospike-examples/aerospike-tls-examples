@@ -1,0 +1,10 @@
+certs/*
+
+aerospike/etc/features.conf
+aerospike/etc/certs/*
+aerospike/etc/private/*
+
+tls-example-java/*.iml
+tls-example-java/*.idea
+tls-example-java/target/*
+tls-example-java/etc/*

@@ -8,3 +8,7 @@ tls-example-java/*.iml
 tls-example-java/*.idea
 tls-example-java/target/*
 tls-example-java/etc/*
+
+tls-example-python/__pycache__/
+tls-example-python/*.pyc
+tls-example-python/*.pyo

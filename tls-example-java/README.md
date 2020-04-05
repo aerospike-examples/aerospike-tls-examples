@@ -8,6 +8,7 @@ Enterprise with standard TLS or mutual authentication TLS (mTLS).
 
 * Java Development Kit (JDK) (verify with: `javac -version`)
 * Maven (verify with: `mvn -version`)
+    * Maven will install the [Aerospike Java Client](https://www.aerospike.com/docs/client/java/)
 
 
 Quick Start

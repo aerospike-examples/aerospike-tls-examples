@@ -32,9 +32,9 @@ done
 echo "Copying server certificate to aerospike server config directory"
 mkdir -p aerospike/etc/certs/
 mkdir -p aerospike/etc/private/
-cp --verbose ${CERT_DIR}/${PREFIX}.ca.crt ${AEROSPIKE_DIR}/certs/
-cp --verbose ${CERT_DIR}/${PREFIX}.server.crt ${AEROSPIKE_DIR}/certs/
-cp --verbose ${CERT_DIR}/${PREFIX}.server.key ${AEROSPIKE_DIR}/private/
+cp ${CERT_DIR}/${PREFIX}.ca.crt ${AEROSPIKE_DIR}/certs/
+cp ${CERT_DIR}/${PREFIX}.server.crt ${AEROSPIKE_DIR}/certs/
+cp ${CERT_DIR}/${PREFIX}.server.key ${AEROSPIKE_DIR}/private/
 
 echo "---"
 tree ${CERT_DIR} ${AEROSPIKE_DIR}/certs/ ${AEROSPIKE_DIR}/private/

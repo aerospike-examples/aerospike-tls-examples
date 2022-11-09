@@ -15,7 +15,7 @@ including:
   [Aerospike Enterprise](https://www.aerospike.com/products/product-matrix/)
 * [Docker](https://www.docker.com/) (verify with: `docker -v`)
 * [OpenSSL](https://www.openssl.org/) (verify with: `openssl version`)
-
+* If you are on a Mac, install `tree` with `brew install tree`
 
 Quick Start
 --------------------------------------------------------------------------------
@@ -26,6 +26,13 @@ Execute `generate-certs.sh` to generate example self-signed TLS certificates:
 
 ```
 $ ./generate-certs.sh
+```
+* If you are getting the error “Error Loading extension section v3_ca” using macOS, add the following to your `/etc/ssl/openssl.cnf`
+```
+[ v3_ca ]
+basicConstraints = critical,CA:TRUE
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer:always
 ```
 
 Output:

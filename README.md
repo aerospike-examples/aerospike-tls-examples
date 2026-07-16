@@ -129,3 +129,5 @@ Refer to the README for your preferred application language:
 
 * [Java](tls-example-java/README.md)
 * [Python](tls-example-python/README.md)
+* [C#](tls-example-csharp/README.md)
+

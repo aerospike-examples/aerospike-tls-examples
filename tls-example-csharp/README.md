@@ -4,19 +4,14 @@ Aerospike TLS Example in C#
 Example C# application demonstrating how to connect to Aerospike Server
 Enterprise with standard TLS or mutual authentication TLS (mTLS).
 
-This example follows the same layout as
-[`tls-example-java`](https://github.com/aerospike-examples/aerospike-tls-examples/tree/master/tls-example-java)
-and
-[`tls-example-python`](https://github.com/aerospike-examples/aerospike-tls-examples/tree/master/tls-example-python)
-in the
+Before running `./install-certs.sh` in this directory (`tls-example-csharp`),
+run `./generate-certs.sh` from the root of the
 [aerospike-tls-examples](https://github.com/aerospike-examples/aerospike-tls-examples)
-repository.
-
-Clone that repository alongside this directory and run `./generate-certs.sh`
-from its root before running `./install-certs.sh` here. The install script
-looks for certificates in `../aerospike-tls-examples/certs` by default, or in
-`../certs` when this folder lives inside the examples repository. Override with
-`CERT_DIR` if needed.
+repository. `install-certs.sh` looks for generated certificates in `../certs`
+when `tls-example-csharp` is inside the `aerospike-tls-examples` tree, or in
+`../aerospike-tls-examples/certs` when `tls-example-csharp` is cloned as a
+sibling of `aerospike-tls-examples`. Set `CERT_DIR` to point elsewhere if
+needed.
 
 ### Prerequisites
 

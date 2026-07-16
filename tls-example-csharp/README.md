@@ -6,7 +6,7 @@ Enterprise with standard TLS or mutual authentication TLS (mTLS).
 
 Before running `./install-certs.sh` in this directory (`tls-example-csharp`),
 run `./generate-certs.sh` from the root of the
-[aerospike-tls-examples](https://github.com/aerospike-examples/aerospike-tls-examples)
+`aerospike-tls-examples`
 repository. `install-certs.sh` looks for generated certificates in `../certs`
 when `tls-example-csharp` is inside the `aerospike-tls-examples` tree, or in
 `../aerospike-tls-examples/certs` when `tls-example-csharp` is cloned as a

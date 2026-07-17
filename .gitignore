@@ -12,3 +12,5 @@ tls-example-java/etc/*
 tls-example-python/__pycache__/
 tls-example-python/*.pyc
 tls-example-python/*.pyo
+
+tls-example-go/tls-example-go

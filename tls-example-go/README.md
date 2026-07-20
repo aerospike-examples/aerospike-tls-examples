@@ -74,7 +74,7 @@ You can also run without building first:
 
 ```
 $ go run .              # standard TLS
-$ go run . -- --mtls    # mutual TLS
+$ go run . --mtls    # mutual TLS
 ```
 
 Troubleshooting

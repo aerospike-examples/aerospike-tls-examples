@@ -127,6 +127,7 @@ ok
 
 Refer to the README for your preferred application language:
 
+* [Go](tls-example-go/README.md)
 * [Java](tls-example-java/README.md)
 * [Python](tls-example-python/README.md)
 * [C#](tls-example-csharp/README.md)
